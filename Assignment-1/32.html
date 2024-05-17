@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Styled Paragraph</title>
+<style>
+  .para-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .styled-para {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .border-style-1 {
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+  }
+  .border-style-2 {
+    border-style: dashed;
+    border-color: blue;
+    border-width: 4px;
+  }
+  .border-style-3 {
+    border-style: dotted;
+    border-color: green;
+    border-width: 6px;
+  }
+  .border-style-4 {
+    border-style: double;
+    border-color: purple;
+    border-width: 8px;
+  }
+</style>
+</head>
+<body>
+
+<div class="para-container">
+  <p class="styled-para border-style-1">Paragraph 1</p>
+  <p class="styled-para border-style-2">Paragraph 2</p>
+  <p class="styled-para border-style-3">Paragraph 3</p>
+  <p class="styled-para border-style-4">Paragraph 4</p>
+</div>
+
+</body>
+</html>
